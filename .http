@@ -1,0 +1,19 @@
+GET http://test-task-jokes.herokuapp.com/jokes/pullJokesData HTTP/1.1
+
+###
+GET http://test-task-jokes.herokuapp.com/jokes/getCategory HTTP/1.1
+
+###
+GET http://test-task-jokes.herokuapp.com/jokes/getJokes HTTP/1.1
+
+###
+GET http://test-task-jokes.herokuapp.com/jokes/getJokeByCat HTTP/1.1
+
+###
+GET http://test-task-jokes.herokuapp.com/jokes/getJoke/x5whniztqdancooc9w-ggg HTTP/1.1
+
+###
+PUT http://test-task-jokes.herokuapp.com/jokes/getJoke/x5whniztqdancooc9w-ggg HTTP/1.1
+Content-Type: application/json
+
+{}
